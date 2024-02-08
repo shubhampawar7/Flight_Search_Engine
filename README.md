@@ -1,24 +1,3 @@
-#Assignment- Vertical Fox -- Shubham Pawar ( pawarshubham1295@gmail.com )
-----------------------------------------------------------------------------------------------------
-Brief: 
-Here, we want to implement Flight search functionality. You have a form, where user can input 
-and search for the flights. Then user will be able to see the search results, user can refine the 
-search using a slider for prices. 
-----------------------------------------------------------------------------------------------------
-Problem statement: 
-■ Create a flight JSON data object for your all flights available to make the search happen. 
-■ Take the User input from the search form and perform a search on the flight JSON data 
-and display the valid search results in the results section. 
-■ There are two tabs for return and one way search form, the return date should be visible 
-on basis of the tab selected. 
-■ Slider should refine the search results based on the selected price range. 
-----------------------------------------------------------------------------------------------------
-What are we looking for: 
-■ Code structure and organization
-■ Simplicity and ease of understanding the code
-■ Understanding of JavaScript, HTML, JSON and CSS
-■ Creativity in terms of look and feel of the page
-----------------------------------------------------------------------------------------------------
 To Start :
 Step 1 : npm i
 Step 2 : npm start
