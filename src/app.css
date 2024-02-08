@@ -1,0 +1,33 @@
+.app {
+    text-align: left;
+    background: url("./assets/images/aero.jpg") no-repeat;
+    background-size: 100% 100%;;
+    height: 100vh;
+}
+
+.app {
+  width: 100%;
+}
+
+.appContent {
+  display: flex;
+  align-items: flex-start;
+  height: 88vh;
+}
+.appContentCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88%;
+}
+
+
+.block {
+  display: block !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  .appContent {
+    display: block;
+  }
+}

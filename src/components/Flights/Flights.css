@@ -1,0 +1,107 @@
+.flights {
+  background: #fff;
+  margin: 10px 2% 0 10px;
+  padding: 35px;
+  width: 100%;
+  border-radius: 5px;
+  opacity: 0.95;
+  height: 77vh;
+  
+}
+.flightList{
+  height: 35rem;
+  overflow-y: scroll;
+  border: 1px solid gray;
+
+}
+
+.flightTimings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flightsDetails {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #43658b;
+  margin-bottom: 10px;
+  color: #3bb18d;
+}
+
+.flight {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #43658b;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 2%;
+}
+
+.flightDetails {
+  width: 50%;
+}
+
+.flighTimings {
+  display: flex;
+}
+
+.flightLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bookFlightBtn {
+  height: 2rem;
+  border-radius: 0.3rem;
+  background-color: #3bb18d;
+  font-size: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  /* font-family: Poppins; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.587px;
+  cursor: pointer;
+
+}
+.flightResultsSection{
+  height: 32rem;
+  overflow-y: scroll;
+}
+
+.flightLogo .airline {
+  background-image: url("../../assets/images/flightsImages.png");
+  width: 160px;
+  height: 95px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.flightDeparture,
+.flightReturn {
+  width: 50%;
+}
+
+.ai {
+  background-position: -36px -365px;
+}
+
+.indigo {
+  background-position: -40px -50px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .flights {
+    width: calc(98% - 30px);
+    padding: 10px;
+  }
+
+  .flight {
+    flex-direction: column;
+    align-items: center;
+  }
+}
